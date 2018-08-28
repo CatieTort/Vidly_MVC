@@ -1,10 +1,12 @@
 ﻿body {
-    padding-top: 50px;
+    padding-top: 0;
     padding-bottom: 20px;
+    margin: 0;
 }
 
 /* Set padding to keep content from hitting the edges */
 .body-content {
+    padding-top: 20px;
     padding-left: 15px;
     padding-right: 15px;
 }
@@ -21,4 +23,21 @@ input,
 select,
 textarea {
     max-width: 280px;
+}
+
+
+.nav-login {
+    margin: 0 20px;
+}
+
+.nav-item > a {
+    color: #fff;
+    padding: 0 10px;
+    text-decoration: none;
+}
+
+#registerLink, #loginLink {
+    color: #fff;
+    text-decoration: none;
+    padding: 0 10px;
 }
