@@ -1,0 +1,16 @@
+﻿@model Vidly.ViewModels.RandomMovieViewModel
+<div>
+   <h2>Members</h2>
+     @if(Model.Customers.Count == 0)
+     {
+         <p>There are no members</p>
+     }
+       <ul class="list-group">
+          @foreach (var customer in Model.Customers)
+           {
+                <li class="list-group-item d-flex justify-content-between align-items-center">
+                   @customer.Name
+                </li>
+            }
+        </ul>
+</div>

@@ -25,19 +25,82 @@ textarea {
     max-width: 280px;
 }
 
-
 .nav-login {
     margin: 0 20px;
 }
 
 .nav-item > a {
     color: #fff;
+    font-size: 0.975em;
     padding: 0 10px;
     text-decoration: none;
 }
 
 #registerLink, #loginLink {
     color: #fff;
+    font-size: 1.15em;
     text-decoration: none;
     padding: 0 10px;
+}
+
+.navbar {
+   padding: 0.5rem 2rem;
+   letter-spacing: 0.5px;
+}
+
+.navbar-brand {
+    color: #00D7DF !important;
+    font-size: 1.62875em;
+    font-family: 'Chango', cursive;
+    padding-left: 5px;
+}
+
+.hash_container {
+    display: flex;
+    flex-direction: row;
+}
+
+.upload_container {
+    display: flex;
+    flex-direction: column;
+}
+
+.upload_form {
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+}
+
+.upload_form > input[type="file"], input[type="submit"]{
+    margin-top: 15px;
+    margin-bottom 15px;
+}
+
+    input[type="submit"]{
+        width: 150px;
+    }
+
+    .message_list {
+        list-style-type: none;
+    }
+
+    .radio_list {
+        list-style: none;
+    }
+
+.radio_list--item > label {
+    padding-left: 10px;
+    font-size: 20px;
+}
+
+.btn_container {
+    margin-top: 40px;
+}
+
+.field-validation-error {
+    color: red;
+}
+
+.input-validation-error {
+    border: 2px solid red;
 }
